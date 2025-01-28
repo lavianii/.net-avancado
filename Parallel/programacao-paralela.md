@@ -8,15 +8,9 @@ Consegue executar várias tarefas ao mesmo tempo, mas não são executadas simultan
 
 Consegue executar várias tarefas ao mesmo tempo, isso requer múltiplos núcleos de CPU, onde cada núcleo processa uma tarefa individualmente, sem precisar passar a vez do processamento.
 
-- Um método marcado como `async`:
-    - Deve retornar um dos seguintes tipos:
-        - `Task`: usado para métodos que não retornam valor.
-        - `Task<T>`: usado para métodos que retornam um valor do tipo `T`.
-        - `void`: usado em eventos assíncronos, mas é geralmente desencorajado para outros métodos.
-
 ### Imagem representando os processos de Concorrência e Paralelismo 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a3d7a794-57b4-4d56-86db-ecde1b76df01/cbb34f8e-41b0-4c30-a66e-4d25b61d6012/image.png)
+![image.png](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fliy4nb34fxlz22pucrf9.png)
 
 ## Fontes
-https://learn.microsoft.com/pt-br/dotnet/standard/parallel-programming/
-https://dev.to/hugaomarques/paralelismo-e-concorrencia-101-2pgc
+- https://learn.microsoft.com/pt-br/dotnet/standard/parallel-programming/
+- https://dev.to/hugaomarques/paralelismo-e-concorrencia-101-2pgc
