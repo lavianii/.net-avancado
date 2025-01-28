@@ -16,3 +16,7 @@ Consegue executar várias tarefas ao mesmo tempo, isso requer múltiplos núcleos d
 
 ### Imagem representando os processos de Concorrência e Paralelismo 
 ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/a3d7a794-57b4-4d56-86db-ecde1b76df01/cbb34f8e-41b0-4c30-a66e-4d25b61d6012/image.png)
+
+## Fontes
+https://learn.microsoft.com/pt-br/dotnet/standard/parallel-programming/
+https://dev.to/hugaomarques/paralelismo-e-concorrencia-101-2pgc

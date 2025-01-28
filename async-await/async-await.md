@@ -15,3 +15,6 @@ A palavra-chave `async` é usada para marcar um método como assíncrono. Isso perm
 ## Await
 
 A palavra-chave `await` é usada para pausar/esperar a execução de um método assíncrono até que a tarefa que está sendo aguardada seja concluída. Durante essa pausa, o controle é liberado para que o thread atual possa executar outras tarefas.
+
+## Fonte
+https://dev.to/hugaomarques/paralelismo-e-concorrencia-101-2pgc
