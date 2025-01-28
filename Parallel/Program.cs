@@ -21,7 +21,7 @@ static void ExibirDias()
     string[] diasArray = { "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado", "Domingo" };
     foreach (string dia in diasArray)
     {
-        Console.WriteLine("Dia da semana: {0}", dia);
+        Console.WriteLine("Dia da semana: {0} na thread {1} ", dia, Task.CurrentId);
         Task.Delay(500).Wait();
     }
 }
@@ -36,7 +36,7 @@ static void ListarLetras()
 
     foreach (string letra in letras)
     {
-        Console.WriteLine("Letra : {0}", letra);
+        Console.WriteLine("Letra : {0} na thread {1}", letra, Task.CurrentId);
         Task.Delay(500).Wait();
     }
 }
@@ -46,7 +46,7 @@ static void ListarNumeros()
     int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
     foreach (int numero in numeros)
     {
-        Console.WriteLine("Números: {0}", numero);
+        Console.WriteLine("Números: {0} na thread {1}", numero, Task.CurrentId);
         Task.Delay(500).Wait();
     }
 }
