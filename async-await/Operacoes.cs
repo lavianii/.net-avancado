@@ -17,7 +17,7 @@ namespace async_await
                 for (int i = 0; i < 10; i++)
                 {
                     Console.WriteLine($"Número: {i + 1}");
-                    Thread.Sleep(500);
+                    Task.Delay(500).Wait();
                 }
 
                 Console.WriteLine($"Incremento finalizado.");
@@ -31,7 +31,7 @@ namespace async_await
                 for (int i = 10; i > 0; i--)
                 {
                     Console.WriteLine($"Reduzindo: {i}");
-                    Thread.Sleep(500);
+                    Task.Delay(500).Wait();
                 }
 
                 Console.WriteLine($"Decremento finalizado.");
@@ -43,7 +43,7 @@ namespace async_await
             for (int i = 0; i < 10; i++)
             {
                 Console.WriteLine($"Número: {i + 1}");
-                Thread.Sleep(500);
+                Task.Delay(500).Wait();
             }
             
             Console.WriteLine($"Incremento finalizado.");
@@ -54,7 +54,7 @@ namespace async_await
             for (int i = 10; i > 0; i--)
             {
                 Console.WriteLine($"Reduzindo: {i}");
-                Thread.Sleep(500);
+                Task.Delay(500).Wait();
             }
             
             Console.WriteLine($"Decremento finalizado.");
